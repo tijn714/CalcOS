@@ -1,35 +1,18 @@
-# CalcOS Kernel
+# CalcOS
 Copyright &copy; Tijn Rodrigo - 2023 All Rights Reserved
 
+# Coming Soon
+CalcOS is a simple x86_16 bit kernel developed by Tijn Rodrigo to perform math operations. The project is based on the MikeOS kernel, which is a popular assembly language operating system.
 
-<img src="img/kernel_qemu.png" alt="Kernel running in QEMU emulator">
+# Features
 
-<br>
+CalcOS is designed to be a lightweight and efficient operating system with a focus on math operations. Some of the features that will be included in the initial release are:
 
-# Project requirements
-There are a few requirements for this project to work. Please make sure you have all of them for this project to work propertly.
-
-    - QEMU Emulator (To emulate the project)
-    - NASM (assembly language compiler)
-    - GNU Make (For fast compling and testing)
-    - dd (for making floppy/iso images)
-
-<br>
-
-# Build and run project
-
-**<p style="color:red;">Makefile optimized for unix devices</p>**
-
-Use 
-```
-make 
-```
-or 
-```
-make all
-```
-
-to build and emulate the program
+- Basic math operations like addition, subtraction, multiplication, and division
+- Support for integers and floating-point numbers
+- A GUI interface
+- A small memory footprint to allow it to run on older hardware
 
 
-
+# Contributing
+CalcOS is an open-source project, and contributions are welcome. If you are interested in contributing to the project, 
